@@ -1,5 +1,5 @@
-ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:10.0-runtime-centos7
+ARG submod/cuda
+FROM submod/cuda:10.0-runtime-centos7
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
 ENV CUDNN_VERSION 7.5.0.56
