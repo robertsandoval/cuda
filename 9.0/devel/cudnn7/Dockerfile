@@ -1,4 +1,3 @@
-ARG submod/cuda
 FROM submod/cuda:9.0-devel-centos7
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
